@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<head>
+    <title>
+        CS 2550 Final
+    </title>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+</head>
+
+<body>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.min.css">
+    <h1 class="hero is-success is-medium">
+        CS 2550 Final
+    </h1>
+    <br>
+    <br>
+    <form action="libscore.html" method="GET">
+        <b>
+            <ul id="dynamic-list"></ul>
+        </b>
+        <br>
+        <label class="label">Enter Library Name</label>
+        <div id="inputDiv">
+            <input type="text" class="input is-success" name="library1" placeholder="Text input">
+            <input type="text" class="input is-success" name="library2" placeholder="Text input">
+        </div>
+        <button type="button" class="input is-success" id="button" onclick="addItem()">Add more libraries</button>
+        <input type="submit" class="button is-success is-rounded">
+    </form>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src=libscore.js></script>
+</body>
+
+</html>
